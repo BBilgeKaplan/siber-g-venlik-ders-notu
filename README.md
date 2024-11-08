@@ -160,7 +160,8 @@ Bu, ağın verimli kullanımını sağlar ve ağ trafiğini yönetmeyi kolaylaş
 - Ağ güvenliğini artırır.
 - Ağ yönetimini kolaylaştırır.
 - IP adreslerinin verimli kullanımını sağlar.
-- Temel Network Tanımları:
+
+Temel Network Tanımları:
 
 **IP Adresi**: Bir cihazın ağa bağlandığında aldığı benzersiz adres.  
 **Alt Ağ Maskesi (Subnet Mask)**: Hangi IP adreslerinin aynı alt ağda olduğunu belirler.  
