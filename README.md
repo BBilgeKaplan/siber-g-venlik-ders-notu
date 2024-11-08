@@ -231,16 +231,16 @@ DNS spoofing'in temel prensibi, DNS sorgularının sonucunu değiştirmek veya D
 
 #### DNS Cache Poisoning (Önbellek Zehirleme):
 
-Tanım: Bu yöntemle, DNS sunucularının önbelleğine sahte IP adresleri eklenir. DNS sunucusu, yanlış bilgiyi kullanarak kullanıcıları saldırganın kontrolündeki sahte bir web sitesine yönlendirir.
-Nasıl Yapılır: Saldırgan, bir DNS sunucusuna sahte bir yanıt gönderir ve bu yanıtı sunucunun önbelleğine kaydettirir. Sonrasında, kullanıcılar bu sunucuya başvurduğunda sahte IP adresi döner ve kullanıcılar sahte siteye yönlendirilir.
-Örnek: Kullanıcı "www.banka.com" sitesine gitmek istediğinde, DNS sunucusu sahte bir IP adresini döner ve kullanıcı aslında "www.sahte-banka.com" gibi bir siteye yönlendirilir.
+Tanım: Bu yöntemle, DNS sunucularının önbelleğine sahte IP adresleri eklenir. DNS sunucusu, yanlış bilgiyi kullanarak kullanıcıları saldırganın kontrolündeki sahte bir web sitesine yönlendirir.  
+Nasıl Yapılır: Saldırgan, bir DNS sunucusuna sahte bir yanıt gönderir ve bu yanıtı sunucunun önbelleğine kaydettirir. Sonrasında, kullanıcılar bu sunucuya başvurduğunda sahte IP adresi döner ve kullanıcılar sahte siteye yönlendirilir.  
+Örnek: Kullanıcı "www.banka.com" sitesine gitmek istediğinde, DNS sunucusu sahte bir IP adresini döner ve kullanıcı aslında "www.sahte-banka.com" gibi bir siteye yönlendirilir.  
 
 #### Man-in-the-Middle (MitM) Saldırıları:
 
-Tanım: MitM saldırılarında, saldırgan DNS istemcisi ve DNS sunucusu arasında durarak trafiği izler ve manipüle eder. Bu şekilde, kullanıcı DNS sunucusuna sorgu gönderdiğinde saldırgan sorguyu ele geçirir ve sahte bir yanıtla kullanıcıyı sahte bir IP adresine yönlendirir.
-Nasıl Yapılır: Saldırgan, kullanıcının DNS sunucusuyla iletişimini keserek kendi sahte yanıtını gönderir. Kullanıcı, saldırganın sunduğu sahte IP adresine yönlendirilir.
+Tanım: MitM saldırılarında, saldırgan DNS istemcisi ve DNS sunucusu arasında durarak trafiği izler ve manipüle eder. Bu şekilde, kullanıcı DNS sunucusuna sorgu gönderdiğinde saldırgan sorguyu ele geçirir ve sahte bir yanıtla kullanıcıyı sahte bir IP adresine yönlendirir.  
+Nasıl Yapılır: Saldırgan, kullanıcının DNS sunucusuyla iletişimini keserek kendi sahte yanıtını gönderir. Kullanıcı, saldırganın sunduğu sahte IP adresine yönlendirilir.  
 
 #### Yerel Ağ Tabanlı DNS Spoofing:
 
-Tanım: Saldırgan, kullanıcının bulunduğu yerel ağdaki trafiği dinleyerek DNS sorgularına sahte yanıtlar verir. Özellikle halka açık Wi-Fi ağlarında bu tür saldırılar yaygın olabilir.
-Nasıl Yapılır: Saldırgan, ağa bağlı diğer cihazların DNS isteklerini yakalayarak kendi sahte yanıtını döner ve kullanıcıları kendi belirlediği sahte sitelere yönlendirir.
+Tanım: Saldırgan, kullanıcının bulunduğu yerel ağdaki trafiği dinleyerek DNS sorgularına sahte yanıtlar verir. Özellikle halka açık Wi-Fi ağlarında bu tür saldırılar yaygın olabilir.  
+Nasıl Yapılır: Saldırgan, ağa bağlı diğer cihazların DNS isteklerini yakalayarak kendi sahte yanıtını döner ve kullanıcıları kendi belirlediği sahte sitelere yönlendirir.  
